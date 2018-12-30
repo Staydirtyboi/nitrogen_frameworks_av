@@ -56,11 +56,9 @@ cc_library_shared {
     ],
 
     product_variables: {
-        havoc: {
             uses_qcom_bsp_legacy: {
                 cppflags: ["-DQCOM_BSP_LEGACY"],
             },
-        },
     },
 
     sanitize: {
